@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*h1, h2, h3, h4, h5, h6, ul, p{
+    margin: 0;
+    padding: 0;
+}*/
+header{
+    background-color: #F0FFF0;
+    height: 100vh;
+}
+header h4{
+    color: #FD511A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+header h1{
+
+color: #000000;
+
+font-size: 48px;
+
+line-height: 70px;
+
+font-weight: 700;
+
+font-family: 'Poppins', sans-serif;
+}
+header h1 span{
+
+color: #21B573;
+}
+header p{
+
+color: #6C6B6B;
+
+font-size: 16px;
+
+line-height: 36px;
+
+font-weight: 400;
+
+font-family: 'Poppins', sans-serif;
+}
+
+.btn-started{
+
+background-color: #21B573;
+
+color: #ffff;
+
+text-transform: capitalize;
+
+padding: 5px 20px;
+border: 1px solid #000000;
+border-radius: 30px;
+}
+.btn-started:hover{
+    background-color: #21b5722b;
+    box-shadow: 0px 0px 5px 5px  #6C6B6B;
+    border: 2px solid #000000;
+    padding: 8px 22px;
+}
+.feature_section{
+    padding: 80px 0;
+}
+.feature_item{
+    text-align: center;
+    background-color: #F8FFFB;
+    padding: 45px 0;
+    border-radius: 10px;
+    transition: .5s all ease-in-out;
+}
+.feature_item:hover{
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    background-color: #ffff;
+    border-radius: 15px;
+}
+.feature_item img{
+    width: 60px;
+}
+.feature_item h3{
+    color: #413960;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 20px;
+    line-height: 36px;
+    font-family: 'Poppins';
+}
+.feature_item p{
+    color: #585859;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Poppins';
+}
+.buy_section{
+
+padding: 10px 0;
+}
+.buy_section h1{
+    
+text-align: center;
+    
+margin-bottom: 5%;
+}
+.course{
+
+box-shadow: 0px 10px 40px 0px #0000001A;
+
+border-radius: 16px;
+
+padding: 20px;
+}
+.course img{
+
+border-radius: 8px;
+}
+.course h3{
+
+color: #413960;
+
+font-family: 'Poppins';
+
+font-size: 24px;
+
+font-weight: 500;
+
+line-height: 36px;
+
+margin-top: 30px;
+}
+.course p{
+
+color: #585859;
+
+font-family: 'Poppins';
+
+font-size: 16px;
+
+font-weight: 400;
+
+line-height: 24px;
+}
+.course ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+.course ul li{
+
+font-size: 15px;
+}
+.course ul li i{
+
+margin-right: 10px;
+}
+.btn-buy{
+    
+padding: 2px 20px;
+    
+background: #21B573;
+    
+font-size: 14px;
+    
+color: #fff;
+    
+margin: 15px 0;
+    
+border-radius: 30px;
+}
+.btn-buy:hover{
+    background-color: #21b5722b;
+    box-shadow: 0px 0px 5px 5px  #6C6B6B;
+    border: 2px solid #000000;
+    padding: 5px 22px;
+}
+.testimonial{
+    
+padding: 8%;
+    
+/* margin: 8% 0; */
+}
+.testimonial h1{
+
+text-align: center;
+
+margin-bottom: 7%;
+}
+.testimonial img{
+
+width: 75%;
+}
+.testimonial p{
+    
+font-family: 'Poppins';
+    
+font-size: 1rem;
+    
+font-weight: 400;
+    
+line-height: 2rem;
+}
+footer{
+    background-color: #282531;
+    padding: 3%;
+}
+footer p{
+
+color: #ffff;
+}
+footer ul{
+
+list-style: none;
+}
+footer ul li{
+
+margin-bottom: 2%;
+}
+footer ul li a{
+
+text-decoration: none;
+
+color: #fff;
+
+font-size: 100%;
+}
+footer h4{
+    color: #fff;
+    margin-left: 9%;
+    font-size: 160%;
+}
